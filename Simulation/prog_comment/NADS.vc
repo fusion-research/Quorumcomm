@@ -1,0 +1,21 @@
+1. Random dispersion pattern for sensor nodes need to be discussed in more detail. 
+2. Considering the worst case conditions for phase-3 the, where about 5% of the remaining MSNs have to be placed to their desired locations.
+3. Based on the durability of battery for worst case conditions we need to compute the:
+
+(maximum_node_movement - average movement performed till phase-2) 
+  
+
+----------------------------------------------------------------------------------------------
+
+Due to uneven distribution of MSNs within acandidate region ... MSNs dropped in clusters still remain unplaced... which is further refined using 
+computations and movements in Phase-3
+
+----------------------------------------------------------------------------------------------
+
+1. initially all the advertising MSNs with group one will advertise one of their unallocated neighboring locations.
+2. unallocated MSN after recieving it will send it a message of movement. using directed diffusion.
+## this is not working and seems to be failed##
+
+---------------------------------------------------------------------------------------------
+1.conditional flooding willl take place with the condition that 
+no unallocated location is received by any MSN more than once.

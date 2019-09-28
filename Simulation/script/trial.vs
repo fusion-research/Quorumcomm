@@ -1,0 +1,12 @@
+<vscript> 
+<function>setScale(0.5)</function>
+<function>setNodeCommRange(100)</function>
+<function>setNodeSensingRange(100)</function>
+<function>setNodeMass(0.3)</function>
+<function>setDeploymentError(5)</function>
+<function>setDroppingHeight(100)</function>
+ <function>loadForegroundFig(cannon.vf)</function>
+ <function>delay(1000)</function>
+ <function>setScatteringRange(100)</function>
+<function>delay(1000)</function>
+ </vscript>
